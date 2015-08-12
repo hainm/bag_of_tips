@@ -1,4 +1,4 @@
-# bag_of_tips
+# this folder has all the things that I don't know where to keep.
 
 Note for me (and for others too?) so I don't need to remember or google.
 
