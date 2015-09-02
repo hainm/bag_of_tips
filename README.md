@@ -6,7 +6,7 @@ See [issues] (https://github.com/hainm/bag_of_tips/issues)
 
 * coding
     * font:  Liberation Mono, 12
-    * builtin-in scheme: black on ligh yellow
+    * builtin-in scheme: black on light yellow
     * Text color: black
-    * bg color: ligh yellow
+    * bg color: light yellow
     * Pallette: Linux console
