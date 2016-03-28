@@ -19,3 +19,8 @@ pyspark
 
     * PYSPARK_DRIVER_PYTHON=ipython \
       PYSPARK_DRIVER_PYTHON_OPTS="notebook --no-browser --port=8889" ./bin/pyspark
+
+Install gcc5.3
+==============
+
+- trick: http://gcc.gnu.org/wiki/FAQ#configure
