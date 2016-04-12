@@ -28,8 +28,7 @@ Install gcc5.3
 How to use IPython in PHENIX
 ============================
 
-- Install pip
-- Upgrade to pip >= 8.1
+- Upgrade pip: phenix.python -m pip install pip --upgrade
 - Install readline: phenix.python -m pip install readline
 - Install Ipython: phenix.python -m pip install IPython
 - Run: phenix.python -c 'from IPython import start_ipython;start_ipython()'
@@ -37,6 +36,6 @@ How to use IPython in PHENIX
 Install pytraj with PHENIX
 ===========================
 
-- cd $AMBERHOME/AmberTools/src/pytraj && phenix.python setup.py install
+- cd $AMBERHOME/AmberTools/src/pytraj && phenix.python setup.py clean && phenix.python setup.py install
 
 Notes: does not work with pytraj in $AMBERHOME/lib due to wrong Python version. (although two Pythons are 2.7, ack)
