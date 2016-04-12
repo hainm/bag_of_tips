@@ -24,3 +24,12 @@ Install gcc5.3
 ==============
 
 - trick: http://gcc.gnu.org/wiki/FAQ#configure
+
+How to use Ipython in PHENIX
+============================
+
+- Install pip
+- Upgrade to pip >= 8.1
+- Install readline: phenix.python -m pip install readline
+- Install Ipython: phenix.python -m pip install IPython
+- Run: phenix.python -c 'from IPython import start_ipython;start_ipython()'
