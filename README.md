@@ -25,7 +25,7 @@ Install gcc5.3
 
 - trick: http://gcc.gnu.org/wiki/FAQ#configure
 
-How to use Ipython in PHENIX
+How to use IPython in PHENIX
 ============================
 
 - Install pip
