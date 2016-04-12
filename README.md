@@ -33,3 +33,10 @@ How to use IPython in PHENIX
 - Install readline: phenix.python -m pip install readline
 - Install Ipython: phenix.python -m pip install IPython
 - Run: phenix.python -c 'from IPython import start_ipython;start_ipython()'
+
+Install pytraj with PHENIX
+===========================
+
+- cd $AMBERHOME/AmberTools/src/pytraj && phenix.python setup.py install
+
+Notes: does not work with pytraj in $AMBERHOME/lib due to wrong Python version. (although two Pythons are 2.7, ack)
