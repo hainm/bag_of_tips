@@ -36,6 +36,7 @@ How to use IPython, conda, ... in PHENIX
 - install via conda: `phenix.python -m conda install package`
 - update numpy >= 1.9.0: `phenix.python -m conda install numpy`
 - To use `jupyter` notebook, create `py2` env with `anaconda` or `miniconda` distribution. (man, too much work)
+- Check [source_phenix_2376](https://github.com/hainm/notes/blob/master/phenix/source_phenix_2376.sh)
 
 Install pytraj with PHENIX
 ===========================
