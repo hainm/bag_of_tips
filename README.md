@@ -34,6 +34,7 @@ How to use IPython, conda, ... in PHENIX
 - Run: phenix.python -c 'from IPython import start_ipython;start_ipython()'
 - conda: `phenix.python -m pip install conda`
 - install via conda: `phenix.python -m conda install package`
+- update numpy >= 1.9.0: `phenix.python -m conda install numpy`
 
 Install pytraj with PHENIX
 ===========================
