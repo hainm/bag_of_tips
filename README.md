@@ -28,10 +28,10 @@ Install gcc5.3
 How to use IPython, conda, ... in PHENIX
 =========================================
 
-- Upgrade pip: phenix.python -m pip install pip --upgrade
-- Install readline: phenix.python -m pip install readline
-- Install Ipython: phenix.python -m pip install IPython
-- Run: phenix.python -c 'from IPython import start_ipython;start_ipython()'
+- Upgrade pip: `phenix.python -m pip install pip --upgrade`
+- Install readline: `phenix.python -m pip install readline`
+- Install Ipython: `phenix.python -m pip install IPython`. Alternate way is to use `conda`
+- Run: `phenix.python -c 'from IPython import start_ipython;start_ipython()`
 - conda: `phenix.python -m pip install conda`
 - install via conda: `phenix.python -m conda install package`
 - update numpy >= 1.9.0: `phenix.python -m conda install numpy`
