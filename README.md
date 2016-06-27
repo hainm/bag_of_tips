@@ -25,13 +25,15 @@ Install gcc5.3
 
 - trick: http://gcc.gnu.org/wiki/FAQ#configure
 
-How to use IPython in PHENIX
-============================
+How to use IPython, conda, ... in PHENIX
+=========================================
 
 - Upgrade pip: phenix.python -m pip install pip --upgrade
 - Install readline: phenix.python -m pip install readline
 - Install Ipython: phenix.python -m pip install IPython
 - Run: phenix.python -c 'from IPython import start_ipython;start_ipython()'
+- conda: `phenix.python -m pip install conda`
+- install via conda: `phenix.python -m conda install package`
 
 Install pytraj with PHENIX
 ===========================
