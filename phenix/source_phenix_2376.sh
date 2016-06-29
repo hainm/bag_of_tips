@@ -10,6 +10,9 @@ alias phenix.ipython="phenix.python -c 'from IPython import start_ipython;start_
 alias phenix.jupyter="phenix.python -m jupyter"
 alias phenix.mdsrv="phenix.python -m mdsrv"
 alias phenix.nglview="phenix.python -m nglview"
+
+# you should install any extra packages in py_anaconda
+# conda install (after activating py2 env)
 source activate py2
 
 
