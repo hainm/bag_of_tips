@@ -44,3 +44,8 @@ Install pytraj with PHENIX
 - cd $AMBERHOME/AmberTools/src/pytraj && phenix.python setup.py clean && phenix.python setup.py install
 
 Notes: does not work with pytraj in $AMBERHOME/lib due to wrong Python version. (although two Pythons are 2.7, ack)
+
+Crystal
+=======
+- [cctbxwiki](http://cctbxwiki.bravais.net/CCTBX_Wiki)
+- [xrayutilities](http://xrayutilities.sourceforge.net/index.html)
