@@ -20,10 +20,21 @@ pyspark
     * PYSPARK_DRIVER_PYTHON=ipython \
       PYSPARK_DRIVER_PYTHON_OPTS="notebook --no-browser --port=8889" ./bin/pyspark
 
+GCC
+====
+
 Install gcc5.3
-==============
+---------------
 
 - trick: http://gcc.gnu.org/wiki/FAQ#configure
+
+Common Error
+------------
+
+- `libgmp.so.10: cannot open shared object file`
+
+    - locate libgmp.so.10
+    - export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/libgmp/
 
 How to use IPython, conda, ... in PHENIX
 =========================================
