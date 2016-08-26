@@ -67,3 +67,7 @@ Install coot
 conda install coot -c mw
 # update boots >= 1.59
 conda install boost=1.59.0 -c omnia
+
+npm
+===
+- 401 error: ?
